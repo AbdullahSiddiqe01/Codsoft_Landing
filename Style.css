@@ -1,0 +1,259 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav-color{
+    height: 50px;
+    width: 100vw;
+    color: white;
+    background: linear-gradient(90deg , #ffc70a, #7e35b7);
+    display: flex;
+    align-items: center;
+}
+.contact{
+    height: 50px;
+    width: 550px;
+    position: absolute;
+    right: 15%;
+    font-size: 15px;
+}
+.but{
+    position: absolute;
+    right: 5%;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    height: 40px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.icons{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+    font-size: 18px;
+}
+.icons i{
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.navbar{
+    height: 65px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.head{
+    height: 60px;
+    width: 300px;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-options{
+    height: 60px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 250px;
+    font-size: 17px;
+}
+.nav-options div:hover{
+    background-color: #ffc70a;
+    height: 45px;
+    padding: 10px;
+    cursor: pointer;
+}
+.search{
+    height: 65px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    height: 450px;
+    width: 100vw;
+    background-image: url(edit.jpg);
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 450px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 2;
+    color: white;
+}
+
+.line{
+    width: 5px;
+    height: 300px;
+    opacity: 1;
+    position: absolute;
+    left: 300px;
+    top: 220px;
+    filter: brightness(2);
+    border-radius: 30px;
+    background: linear-gradient(45deg, #7e35b7, #ffc70a);
+    border: 1px solid black;
+}
+.texted{
+    position: absolute;
+    left: 330px;
+    top: 100px;
+}
+.texted p{
+    width: 500px;
+}
+.texted p{
+    position: absolute;
+    font-size: 15px;
+}
+.rbut{
+    position: absolute;
+    left: 110px;
+    top: 245px;
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.team{
+    height: 200px;
+    width: 100vw;
+    background: linear-gradient(45deg, #ffc70a, #7e35b7);
+}
+.highlight{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.launch{
+    height: 200px;
+    width: 380px;
+    font-size: 17px;
+}
+.launch h2{
+    position: relative;
+    left: 10%;
+    margin-left: 30px;
+}
+.launch span{
+    position: relative;
+    top: 24%;
+    left: 3%;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    font-size: 17px;
+}
+.aboutus{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+}
+.aboutus h2{
+   position: relative;
+   top: 20px;
+   left: 170px;
+   width: 400px;
+   font-size: 30px;
+}
+.elobrate{
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 20%;
+    padding: 20px;
+    font-size: 17px;
+}
+.picture{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.buts{
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+    position: relative;
+    left: 25%;
+    top: 20px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #ffc70a, #7e35b7);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.our-ser{
+    background: linear-gradient(30deg, white, rgba(0, 0, 0, 0.461));
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-ser h2{
+    position: relative;
+    top: 20px;
+    left: 170px;
+    width: 400px;
+    font-size: 30px;
+ }
+.pic-div{
+    position: relative;
+    top: 25%;
+    right: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 80vw;
+}
+ .meeti{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: 150px;
+ }
+ .white-div{
+    height: 240px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.457);
+ }
+ .meeti h3{
+    position: relative;
+    bottom: 20%;
+    left: 40%;
+    width: 200px;
+    background: linear-gradient(50deg, #ffc70a, #7e35b7);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 0.9;
+ }
+
